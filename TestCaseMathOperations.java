@@ -10,6 +10,8 @@ import org.junit.Test;
 
 public class TestCaseMathOperations {
 
+	MathOperations math;
+
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		System.out.println("Hello !");
@@ -37,7 +39,7 @@ public class TestCaseMathOperations {
 		int a = 5;
 		int b = 6;
 		int expectedResult = 11;
-		int actualResult = MathOperations.add(a, b);
+		int actualResult = math.add(a, b);
 		assertEquals("Check the addition", expectedResult, actualResult);
 	}
 
