@@ -1,4 +1,3 @@
-package ro.ase.csie.cts.g1094.testing.tests;
 
 import static org.junit.Assert.*;
 
@@ -8,7 +7,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import ro.ase.csie.cts.g1094.testing.models.MathOperations;
 
 public class TestCaseMathOperations {
 
@@ -32,10 +30,6 @@ public class TestCaseMathOperations {
 		System.out.println("Clear after test");
 	}
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 	
 	
 	@Test
