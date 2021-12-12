@@ -8,7 +8,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 
-public class TestCaseMathOperations {
+public class TestCase2MathOperations {
 
 	MathOperations math;
 
@@ -41,14 +41,5 @@ public class TestCaseMathOperations {
 	}
 
 	
-	
-	@Test
-	public void testAdd() {
-		int a = 5;
-		int b = 6;
-		int expectedResult = 11;
-		int actualResult = math.add(a, b);
-		assertEquals("Check the addition", expectedResult, actualResult);
-	}
 
 }
