@@ -32,6 +32,13 @@ public class TestCaseMathOperations {
 		System.out.println("Clear after test");
 	}
 
+	@Test
+	public void testSetNumber() {
+		int newNumber = 7;
+		math.setName(newNumber);
+		assertEquals("Testing with a right number", newNumber, math.getNumber());
+	}
+
 	
 	
 	@Test
