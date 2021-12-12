@@ -24,6 +24,7 @@ public class TestCaseMathOperations {
 
 	@Before
 	public void setUp() throws Exception {
+		math=new MathOperations();
 		System.out.println("Prepare the test");
 	}
 
@@ -35,7 +36,7 @@ public class TestCaseMathOperations {
 	@Test
 	public void testSetNumber() {
 		int newNumber = 7;
-		math.setName(newNumber);
+		math.setNumber(newNumber);
 		assertEquals("Testing with a right number", newNumber, math.getNumber());
 	}
 
